@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+</head>
+<style>
+  .box-static {
+    position: static;
+    background-color: rgb(173, 175, 230);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .box-relative {
+    position: relative;
+    background-color: rgb(173, 175, 230);
+    padding: 20px;
+    margin-bottom: 20px;
+    top: 10px;
+    left: 10px;
+  }
+    .wrapper {
+        position: relative;
+        height: 100px;
+        background-color: rgb(173, 175, 230);
+        margin-bottom: 20px;
+    }
+    .box-absolute {
+        position: absolute;
+        background-color: rgb(173, 175, 230);
+        padding: 20px;
+        top: 10px;
+        left: 10px;
+    }
+    .box-fixed {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: rgb(173, 175, 230);
+        padding: 20px;
+    }
+    .box-sticky {
+        position: sticky;
+        background-color: rgb(173, 175, 230);
+        padding: 20px;
+        top: 10px;
+        left: 10px;
+    }
+
+ </style>
+<body>
+
+  <h2>1. Static</h2>
+   <div class="box-static">Static box</div>
+
+  <h2>2. Relative</h2>
+    <div class="box-relative">Relative box</div>
+     
+  <h2>3. Absolute</h2>
+    <div class="wrapper">
+      <div class="box-absolute">Absolute box</div>
+    </div>
+    
+    <h2>4. Fixed</h2>
+    <div class="box-fixed">Fixed box</div>
+
+    <h2>5. Sticky</h2>
+    <div class="box-sticky">Sticky box</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
